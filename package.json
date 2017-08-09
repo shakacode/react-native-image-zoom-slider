@@ -1,0 +1,18 @@
+{
+  "name": "react-native-image-zoom-slider",
+  "version": "0.1.0",
+  "description": "react-native-image-zoom-slider",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com:shakacode/react-native-image-zoom-slider.git"
+  },
+  "author": "ShakaCode",
+  "license": "MIT",
+  "dependencies": {
+    "react-native-image-progress": "^1.0.1"
+  }
+}
