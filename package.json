@@ -10,9 +10,10 @@
     "type": "git",
     "url": "github.com:shakacode/react-native-image-zoom-slider.git"
   },
-  "author": "ShakaCode",
+  "author": "contact@shakacode.com",
   "license": "MIT",
   "dependencies": {
     "react-native-image-progress": "^1.0.1"
-  }
+  },
+  "homepage": "https://github.com/shakacode/react-native-image-zoom-slider"
 }
