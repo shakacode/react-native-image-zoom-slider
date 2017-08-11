@@ -47,14 +47,14 @@ export default class TransformableImage extends Component {
 
   resetZoomScale = () => {
     const { width, height } = this.state;
+    this.zoomRef.scrollTo({x: 0, y: 0, animated: true});
     this.scrollResponderRef.scrollResponderZoomTo({ 
 			x: 0,
 			y: 0,
 			width,
 			height,
-			animated: true,
+			animated: false,
     });
-    this.zoomRef.scrollTo({x: 0, y: 0, animated: false});
   }
 
 	//the ScrollView has a scrollResponder which allows us to access more methods to control the ScrollView component
@@ -82,6 +82,7 @@ export default class TransformableImage extends Component {
         showsHorizontalScrollIndicator={false}
         showsVerticalScrollIndicator={false}
         onLayout={this.onLayout}
+        centerContent
       >
         <ImageProgress
           indicator={this.props.indicator}

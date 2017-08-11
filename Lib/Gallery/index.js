@@ -38,15 +38,15 @@ export default class Gallery extends Component {
 
   render() {
 
-    const { images } = this.props;
+    const { images, style } = this.props;
 
     return (
       <View
-        style={{
+        style={[style, {
           justifyContent: "space-between",
           alignItems: "stretch",
           flex: 1,
-        }}
+        }]}
         onLayout={this.onRootViewLayout}
       >
         <FlatList
@@ -85,7 +85,7 @@ export default class Gallery extends Component {
     const width = event.nativeEvent.layout.width;
     this.setState({ width }, () => {
       if (this.gallery) {
-        this.gallery.scrollToIndex({ index: this.state.page });
+        this.gallery.scrollToIndex({ index: this.state.page, animated: false });
       }
     });
   }
