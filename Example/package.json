@@ -1,7 +1,7 @@
 {
   "name": "react-native-image-zoom-slider-example",
   "version": "0.0.0",
-  "description": "Hello Expo!",
+  "description": "Slider example",
   "author": null,
   "private": true,
   "main": "node_modules/expo/AppEntry.js",

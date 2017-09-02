@@ -13,7 +13,11 @@
   "author": "contact@shakacode.com",
   "license": "MIT",
   "dependencies": {
-    "react-native-image-progress": "^1.0.1"
+    "@ldn0x7dc/react-native-view-pager": "^0.0.9",
+    "react-native-gesture-responder": "^0.1.1",
+    "react-native-image-progress": "^1.0.1",
+    "react-native-scroller": "^0.0.6",
+    "react-native-view-transformer": "^0.0.28"
   },
   "homepage": "https://github.com/shakacode/react-native-image-zoom-slider"
 }

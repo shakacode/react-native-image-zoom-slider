@@ -17,7 +17,7 @@ import Styles from './styles';
 const images = pipe(
   range(0),
   map((index) => {
-    const color = randomColor();
+    const color = randomColor().substring(1, 7);
     return {
       image: `http://via.placeholder.com/2000x1500/${color}`,
       preview: `http://via.placeholder.com/200x150/${color}`,
